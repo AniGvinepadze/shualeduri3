@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.Desktop-Container {
+  width: 100%;
+
+  background-color: rgb(24, 38, 63);
+  color: #ffffff;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #33394e;
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 120px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding-right: 24px;
+}
+
+.API {
+  display: flex;
+  justify-content: center;
+  padding: 36px 0px 102px 0px;
+}
+.Weather-api {
+  display: flex;
+  justify-content: center;
+}
+.Weather-Container {
+  width: 423px;
+  height: 526px;
+  border-radius: 40px;
+  background-color: #0f2836;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.location {
+  padding: 40px;
+}
+
+.wt {
+  display: flex;
+  justify-content: space-between;
+}
+.wt p {
+  font-weight: 200;
+  font-style: italic;
+  padding-right: 40px;
+}
+
+.sunimg {
+  padding: 20px 30px;
+}
+.Temperatue-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Wimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temperature {
+  font-weight: 400;
+  font-size: 64px;
+}
+.Wind-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 97px 56px 72px 50px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.wdiv {
+  display: flex;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 100px 0px;
+}
+.wind-speed {
+    font-size: 16px;
+    padding: 2px 5px ;
+}
+
+@media screen and (min-width: 400px)  {
+    
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .weather{
+        padding-right: 30px;
+    }
+    .us{
+        width: 100px;
+    }
+
+} 
